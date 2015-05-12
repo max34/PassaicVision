@@ -1,0 +1,9 @@
+$background_color: lightblue;
+$header_color: yellow;
+
+body{
+	background-color: $background_color;
+	h1{
+	background-color: $header_color;
+	}
+}
