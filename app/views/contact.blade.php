@@ -8,7 +8,7 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Contact
-                        <strong>business casual</strong>
+                        <strong>Passaic Vision</strong>
                     </h2>
                     <hr>
                 </div>
@@ -22,12 +22,46 @@
                         <strong>973.473.5151</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        <strong><a href="mailto:passaicvision@aol.com">passaicvsion@aol.com</a></strong>
                     </p>
                     <p>Address:
                         <strong>289 Monroe Street
                             <br>Passaic, NJ 07055</strong>
                     </p>
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Office Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>9:00am - 7:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>9:00am - 7:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>9:00am - 6:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>9:00am - 7:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>9:00am - 6:00pm</td>
+                            </tr>
+                            <tr>
+                                <td>Satruday</td>
+                                <td>8:00am - 5:00pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -41,20 +75,33 @@
                         <strong>form</strong>
                     </h2>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+                    <p class="intro-text text-center">Tell us how can we improve or send us an email to schedule an appointment.<br>
+                     <strong>Please be advise Email schedule may take up to 24 hour to confirm</strong></p>
                     <form role="form">
                         <div class="row">
-                            <div class="form-group col-lg-4">
+                            <div class="form-group col-lg-3">
                                 <label>Name</label>
                                 <input type="text" class="form-control">
                             </div>
-                            <div class="form-group col-lg-4">
+                            <div class="form-group col-lg-3">
                                 <label>Email Address</label>
                                 <input type="email" class="form-control">
                             </div>
-                            <div class="form-group col-lg-4">
+                            <div class="form-group col-lg-3">
                                 <label>Phone Number</label>
                                 <input type="tel" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Reason</label>
+                                <select class="form-control">
+                                    <option></option>
+                                    <option>Catarat</option>
+                                    <option>Glaucoma</option>
+                                    <option>Eye Exam</option>
+                                    <option>Retina</option>
+                                    <option>Second Opinion</option>
+                                    <option>Other...</option>
+                                </select>
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">

@@ -53,7 +53,7 @@
                         <strong>Commitment</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                    <img class="img-responsive img-border img-left" src="{{URL::to('/')}}/img/mendozagonzalez1.JPG" alt="">
                     <hr class="visible-xs">
                     <p>Passaic Vision Center is a health service company, located in the heart of Passaic in the state of New Jersey. 
                     We are in charge of the eye health of our community. We as a clinic and nevertheless as human beings, take care of our 
@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <div class="row">
+     <!--   <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
@@ -84,7 +84,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
             </div>
-        </div>
+        </div>-->
 
     </div>	
 	

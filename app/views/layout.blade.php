@@ -9,7 +9,16 @@
     {{HTML::style('css/font-awesome.min.css')}}
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-59988056-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
         <!--header-->
@@ -26,25 +35,15 @@
                            <span class="icon-bar"></span>
                            <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="">Passaic Vision</a>
+                        <a class="navbar-brand" href="home">Passaic Vision</a>
                     </div>
     				
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="current"><a href="/">Home</a></li>
+                            <li class="current"><a href="home">Home</a></li>
                             <li><a href="services">Services</a></li>
                             <li><a href="contact">Contact</a></li>
-                            <li><a href="comment">Comments</a></li>
-                            <li class="dropdown">
-                                <a href="staff" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Physitians<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="staff#mendoza">Mendoza</a></li>
-                                    <li><a href="staff#gonzalez">Gonzalez</a></li>
-                                    <li><a href="staff#gunzburg">Gunzburg</a></li>
-                                    <li><a href="staff#freilich">Freilich</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog">Blog</a></li> 
+                            <li><a href="staff">Physicians</a></li>
                         </ul>
                     </div>
             </div><!--header-->
@@ -59,9 +58,9 @@
                 <div class="col-lg-12 text-center">
                     <p>Copyright &copy; 205Ventures 2015</p>
                     <div class="social-media">
-                    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                    <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    <a href="https://www.facebook.com/pvcllc"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/pvcllc"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    <a href="https://www.google.com/+Passaicvisioncenterllc"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </div>
                 </div>
             </div>

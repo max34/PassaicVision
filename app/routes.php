@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', array('as' => 'home', function()
+Route::get('home', array('as' => 'home', function()
 {
     return View::make('index') -> with(array('subtitle'=>'Home'));
 }));
@@ -36,7 +36,3 @@ Route::get('blog', array('as' => 'blog', function()
 	return View::make('blog') -> with(array('subtitle'=>'Blog'));
 }));
 
-Route::get('comment', array('as'=>'comment', function()
-{
-	return View::make('comment') -> with(array('subtitle'=>'Comment'));
-}));

@@ -8,7 +8,7 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Our
-                        <strong>Sevices</strong>
+                        <strong>Services</strong>
                     </h2>
                     <hr>
                 </div>
@@ -20,7 +20,7 @@
                     our team of professionals will help you diagnose, treat, and, manage your problem. Our team is also willing to provide a 
                     second opinion. Also eye surgeries are available on our clinic.</p>
 
-                    <table class="table">
+                    <table class="table table-striped table-bordered">
                         <tbody>
                             <tr>
                                 <td><strong>Glaucoma</strong></td>
@@ -45,32 +45,27 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Our
-                        <strong>Team</strong>
-                    </h2>
+                        <h2 class="intro-text text-center">
+                            Store
+                        </h2>
                     <hr>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
+                <div class="col-md-4">
+                    <img class="img-responsive img-border-left" src="{{URL :: to('/')}}/img/store0.JPG">
                 </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
+                <div class="col-md-8">
+                    <p>Come to our optical store and get brand names at affordable prices.</p>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td><img src="{{URL::to('/')}}/images/ads/ad1.png"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+            </div>           
         </div>
 
+        
     </div>
 @stop
